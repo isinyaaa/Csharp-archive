@@ -1,0 +1,139 @@
+﻿<Window x:Class="MatrixTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatrixTools"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Border>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <!--Matrix viewer-->
+            <ListBox Grid.Column="1">
+                <ListBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <Border Margin="{TemplateBinding Margin}" Padding="{TemplateBinding Padding}"
+                                            BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                                            Background="{TemplateBinding Background}">
+                                        
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition/>
+                                                    <ColumnDefinition/>
+                                                    <ColumnDefinition/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Name="ID"/>
+
+                                                <TextBlock Grid.Column="1" Name="IsBlank" Text="Blank"/>
+
+                                                <TextBlock Grid.Column="2" Name="Dimensions"/>
+                                            </Grid>
+
+                                            <Grid>
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.Resources>
+            </ListBox>
+
+            <!--Options-->
+            <StackPanel>
+
+                <Button>
+                    <TextBlock>Insert new matrix...</TextBlock>
+                </Button>
+
+                <!--New matrix-->
+                <StackPanel>
+                    <StackPanel.Resources>
+                        <Style TargetType="TextBox" x:Key="NewMatrixTBoxStyle">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                            <Setter Property="Foreground" Value="LightGray"/>
+                            <!--<Setter Property="Text" Value="{Binding DefText}"/>-->
+                            <Style.Triggers>
+                                <Trigger Property="IsKeyboardFocused" Value="True">
+                                    <Setter Property="TextAlignment" Value="Left"/>
+                                    <Setter Property="Foreground" Value="#454545"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Resources>
+
+                    <!--ID Row-->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock>ID</TextBlock>
+                        <TextBox Grid.Column="1"/>
+                    </Grid>
+
+                    <!--Dimensions Row-->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock>Dimensions</TextBlock>
+                        <TextBox Grid.Column="1" Text="a"/>
+                        <TextBlock Grid.Column="2">X</TextBlock>
+                        <TextBox Grid.Column="3" Text="b"/>
+                    </Grid>
+
+                    <!--Squared-->
+                    <CheckBox>Square</CheckBox>
+
+                    <!--First buttons row-->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button>
+                            <TextBlock>Fill in matrix...</TextBlock>
+                        </Button>
+
+                        <Button Grid.Column="1">
+                            <TextBlock>Leave blank</TextBlock>
+                        </Button>
+                    </Grid>
+
+                    <!--Ret but-->
+                    <Button>
+                        <TextBlock>Return</TextBlock>
+                    </Button>
+                    
+                </StackPanel>
+
+            </StackPanel>
+
+            <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Background="LightGray">Info</TextBlock>
+        </Grid>
+
+    </Border>
+</Window>

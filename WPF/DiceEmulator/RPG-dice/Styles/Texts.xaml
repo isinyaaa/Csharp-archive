@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:RPG_dice.Styles">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.xaml"/>
+        <ResourceDictionary Source="Fonts.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="TextBlock" x:Key="TBlockStyle">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+    </Style>
+
+    <Style TargetType="TextBox" x:Key="BaseTBoxStyle">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Padding" Value="4 9"/>
+        <Setter Property="Margin" Value="3 4"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+    </Style>
+
+    <Style TargetType="TextBox" x:Key="ResultTBoxStyle" BasedOn="{StaticResource BaseTBoxStyle}">
+        <Setter Property="Grid.Column" Value="4"/>
+        <Setter Property="IsReadOnly" Value="True"/>
+        <Setter Property="Background" Value="{StaticResource DarkerBackgroundBrush}"/>
+    </Style>
+    
+    <Style TargetType="TextBox" x:Key="BaseClickableTBox" BasedOn="{StaticResource BaseTBoxStyle}">
+        <!--<EventSetter Event="GotKeyboardFocus" Handler="{Binding KeyBoardGotFocusCommand}"/>
+        <EventSetter Event="LostKeyboardFocus" Handler="{Binding KeyBoardLostFocusCommand}"/>
+        <EventSetter Event="TextChanged" Handler="{Binding TextChangedCommand}"/>-->
+    </Style>
+
+    <Style TargetType="TextBox" x:Key="TBoxStyle" BasedOn="{StaticResource BaseClickableTBox}">
+        <Setter Property="Grid.Column" Value="1"/>
+        <Setter Property="BorderThickness" Value="1"/>
+    </Style>
+
+    <Style TargetType="TextBox" x:Key="InGridTBox" BasedOn="{StaticResource BaseClickableTBox}">
+        <Setter Property="Grid.Column" Value="1"/>
+        <Setter Property="Grid.Row" Value="1"/>
+        <Setter Property="BorderThickness" Value="0 1 1 1"/>
+        <Setter Property="Margin" Value="0 4 3 4"/>
+    </Style>
+
+</ResourceDictionary>

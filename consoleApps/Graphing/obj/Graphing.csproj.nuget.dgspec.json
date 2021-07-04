@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Isabella\\Documents\\Drive - Isaback4147\\Git\\C# Projects\\Graphing\\Graphing\\Graphing.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Isabella\\Documents\\Drive - Isaback4147\\Git\\C# Projects\\Graphing\\Graphing\\Graphing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Isabella\\Documents\\Drive - Isaback4147\\Git\\C# Projects\\Graphing\\Graphing\\Graphing.csproj",
+        "projectName": "Graphing",
+        "projectPath": "C:\\Users\\Isabella\\Documents\\Drive - Isaback4147\\Git\\C# Projects\\Graphing\\Graphing\\Graphing.csproj",
+        "packagesPath": "C:\\Users\\Isabella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isabella\\Documents\\Drive - Isaback4147\\Git\\C# Projects\\Graphing\\Graphing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Isabella\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

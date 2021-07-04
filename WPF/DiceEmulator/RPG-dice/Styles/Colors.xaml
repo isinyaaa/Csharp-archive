@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:RPG_dice.Styles">
+
+    <Color x:Key="White">#fff</Color>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+
+    <Color x:Key="Black">#000</Color>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+
+    <Color x:Key="MildDarkBorder">#888</Color>
+    <SolidColorBrush x:Key="MildDarkBorderBrush" Color="{StaticResource MildDarkBorder}"/>
+
+    <Color x:Key="WeirdBorder">#FFABADB3</Color>
+    <SolidColorBrush x:Key="WeirdBorderBrush" Color="{StaticResource WeirdBorder}"/>
+
+    <Color x:Key="DarkerBackground">#ddd</Color>
+    <SolidColorBrush x:Key="DarkerBackgroundBrush" Color="{StaticResource DarkerBackground}"/>
+</ResourceDictionary>

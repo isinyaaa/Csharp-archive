@@ -1,0 +1,66 @@
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Graphing.deps.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.dev.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Graphing.csprojAssemblyReference.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Graphing.csproj.CoreCompileInputs.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfoInputs.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfo.cs
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.deps.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.dev.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csprojAssemblyReference.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csproj.CoreCompileInputs.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfoInputs.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfo.cs
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.deps.json
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.json
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.dev.json
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csprojAssemblyReference.cache
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csproj.CoreCompileInputs.cache
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfoInputs.cache
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfo.cs
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\Raposa\Documents\GDrive\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\A\Downloads\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.deps.json
+C:\Users\A\Downloads\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.json
+C:\Users\A\Downloads\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.dev.json
+C:\Users\A\Downloads\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\A\Downloads\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\A\Downloads\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csprojAssemblyReference.cache
+C:\Users\A\Downloads\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csproj.CoreCompileInputs.cache
+C:\Users\A\Downloads\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfoInputs.cache
+C:\Users\A\Downloads\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfo.cs
+C:\Users\A\Downloads\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\A\Downloads\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.deps.json
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.json
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.dev.json
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csprojAssemblyReference.cache
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csproj.CoreCompileInputs.cache
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfoInputs.cache
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfo.cs
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\Isabella\Documents\Drive - Isaback4147\Coding\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.deps.json
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.json
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.runtimeconfig.dev.json
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\bin\Debug\netcoreapp2.0\Graphing.pdb
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csprojAssemblyReference.cache
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.csproj.CoreCompileInputs.cache
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfoInputs.cache
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.AssemblyInfo.cs
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.dll
+C:\Users\Isabella\Documents\Drive - Isaback4147\Git\C# Projects\Graphing\Graphing\obj\Debug\netcoreapp2.0\Graphing.pdb

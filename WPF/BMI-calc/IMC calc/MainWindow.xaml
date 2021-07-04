@@ -1,0 +1,162 @@
+﻿<Window x:Class="IMC_calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMC_calc"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Icon="Images/Calc.png"
+        Title="BMI calc" Height="500" Width="500">
+
+    <Border Margin="5" BorderBrush="{StaticResource DarkerBorderBrush}" BorderThickness="0.5">
+        <StackPanel Margin="5">
+
+            <!--Fields grid-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <!--Type in your info text-->
+                <TextBlock Grid.Column="0" 
+                           Margin="0 0 5 0"
+                           Text="Type in your" 
+                           Style="{StaticResource DefUITextBlock}"/>
+
+                <!--Imperial grid-->
+                <Grid Grid.Column="1" Visibility="{Binding ImperialChecked, Converter={local:BooleanToVisiblityConverter}}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--TextBox for Feet-->
+                    <TextBox Name="FeetTextBox" 
+                             Grid.Column="0" 
+                             Style="{StaticResource DefTBoxStyle}" 
+                             Tag="{Binding DefHg}" 
+                             Text="{Binding UserHeightFeet}"/>
+
+                    <TextBlock Grid.Column="1" Text="feet" 
+                               Style="{StaticResource UIFieldLabels}"/>
+
+                    <!--TextBox for Inches-->
+                    <TextBox Name="InchTextBox" 
+                             Grid.Column="2" 
+                             Style="{StaticResource DefTBoxStyle}" 
+                             Tag="{Binding DefHg}" 
+                             Text="{Binding UserHeightInches}"/>
+
+                    <TextBlock Grid.Column="3" Text="inches" 
+                               Style="{StaticResource UIFieldLabels}"/>
+
+                    <!--TextBox for Lbs-->
+                    <TextBox Name="PoundTextBox" 
+                             Grid.Column="4"
+                             Style="{StaticResource DefTBoxStyle}" 
+                             Tag="{Binding DefWg}" 
+                             Text="{Binding UserWeightLBS}"/>
+
+                    <TextBlock Grid.Column="5" Text="lbs" 
+                               Style="{StaticResource UIFieldLabels}"/>
+
+                </Grid>
+
+                <!--Metric grid-->
+                <Grid Grid.Column="1" Visibility="{Binding MetricChecked, Converter={local:BooleanToVisiblityConverter}}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--TextBox for cm-->
+                    <TextBox Name="CmTextBox" 
+                             Grid.Column="0" 
+                             Style="{StaticResource DefTBoxStyle}" 
+                             Tag="{Binding DefHg}" 
+                             Text="{Binding UserHeightCm}"/>
+
+                    <TextBlock Grid.Column="1" Text="cm" 
+                               Style="{StaticResource UIFieldLabels}"/>
+
+                    <!--TextBox for Kg-->
+                    <TextBox Name="KgTextBox" 
+                             Grid.Column="2" 
+                             Style="{StaticResource DefTBoxStyle}" 
+                             Tag="{Binding DefWg}" 
+                             Text="{Binding UserWeightKG}"/>
+
+                    <TextBlock Grid.Column="3" Text="kg"
+                               Style="{StaticResource UIFieldLabels}"/>
+
+                </Grid>
+            </Grid>
+
+            <!--Unit system selection-->
+            <Grid Margin="0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Unit system text-->
+                <TextBlock Text="Unit System" Style="{StaticResource UISectionTBlock}"/>
+
+                <!--Metric and Imperial Radiobuttons-->
+                <RadioButton Name="MetricCheck" Grid.Column="1" Content="Metric" GroupName="UnitSys" IsChecked="{Binding MetricChecked}"/>
+                <RadioButton Name="ImperialCheck" Grid.Column="2" Content="Imperial" GroupName="UnitSys" IsChecked="{Binding ImperialChecked}"/>
+
+            </Grid>
+
+            <!--Action buttons-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="236*"/>
+                    <ColumnDefinition Width="81*"/>
+                    <ColumnDefinition Width="154*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Clear button-->
+                <Button Grid.Column="0" Style="{StaticResource DefUIButtonStyle}" Command="{Binding ClearCommand}" IsCancel="True">
+                    <TextBlock Text="Clear" Style="{StaticResource DefUITextBlock}"/>
+                </Button>
+
+                <!--Calculate button-->
+                <Button Grid.Column="1" Style="{StaticResource DefUIButtonStyle}" Command="{Binding CalculateCommand}" IsDefault="True" Grid.ColumnSpan="2">
+                    <TextBlock Text="Calculate" Style="{StaticResource DefUITextBlock}"/>
+                </Button>
+
+            </Grid>
+
+            <!--Result panel-->
+            <StackPanel Visibility="{Binding BMIAvailable, Converter={local:BooleanToVisiblityConverter}}" Margin="0 5">
+
+                <!--'Result' text-->
+                <TextBlock Text="Result" Style="{StaticResource UISectionTBlock}"/>
+
+                <!--Rest of text-->
+                <TextBlock Style="{StaticResource DefUITextBlock}" TextAlignment="Left">
+                    <TextBlock.Inlines>
+                        <Run Text="Your BMI is"/>
+                        <Run Text="{Binding BMIString, Mode=OneWay}" FontFamily="{StaticResource LatoSemibold}"/>
+                        <Run Text="kg/m²" Foreground="{StaticResource LightTextBlockForegroundBrush}"/>
+                        <Run Text="which means you're"/>
+                        <Run Text="{Binding BMIInfo, Converter={local:BmieToStringConverter}, Mode=OneWay}" FontFamily="{StaticResource LatoSemibold}"/>
+                    </TextBlock.Inlines>
+                </TextBlock>
+            </StackPanel>
+            
+        </StackPanel>
+
+    </Border>
+
+</Window>

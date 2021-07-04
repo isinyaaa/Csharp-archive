@@ -1,0 +1,11 @@
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Grafico2grau.deps.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Grafico2grau.runtimeconfig.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Grafico2grau.runtimeconfig.dev.json
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Grafico2grau.dll
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\Grafico2grau.pdb
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Grafico2grau.csprojAssemblyReference.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Grafico2grau.csproj.CoreCompileInputs.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Grafico2grau.AssemblyInfoInputs.cache
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Grafico2grau.AssemblyInfo.cs
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Grafico2grau.dll
+C:\Users\isabe\Documents\Drive\GameMaking\C#\Projects\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\Grafico2grau.pdb
